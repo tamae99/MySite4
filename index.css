@@ -170,7 +170,7 @@ select {
   letter-spacing: normal;
   text-shadow: 0 3px 3px #555555;
   position: absolute;
-  top: 49%;
+  top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
 }
@@ -181,7 +181,7 @@ select {
   line-height: 1;
   letter-spacing: 2.4px;
   text-align: center;
-  margin-top: 19px;
+  margin-top: 12px;
 }
 
 /* news */
@@ -250,19 +250,32 @@ line-height: 1.8;
   box-shadow: 0 0 2px 2px #eeeeee;
   border-radius: 4px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .material-symbols-outlined{
-  font-size: 80px;
+  font-size: 48px;
   color:#dd1b57;
   margin-top: 50px;
 }
+
+.work{
+  font-variation-settings: 'FILL' 1;
+}
+
 .service-list__title{
+  font-size: 18px;
+  line-height: 1.15;
+  font-weight: bold;
   margin-top: 10px;
 }
 .service-list__text{
-  padding:50px;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: bold;
   text-align: left;
+  padding:0 50px 50px 50px;
+  margin-top: 15px;
 }
 
 
