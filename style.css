@@ -150,7 +150,7 @@ select {
 /* common */
 body{
   color:#333333;
-  font-family: 'Roboto', sans-serif;
+  font-family:Roboto, "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 a{
   all:unset;
@@ -174,7 +174,7 @@ a{
   display: flex;
   gap:30px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1;
   letter-spacing: 0.8px;
 }
