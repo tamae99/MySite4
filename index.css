@@ -160,6 +160,7 @@ select {
   color:#ffffff;
   background-image: url("pc_mv.webp");
   background-size: cover;
+  background-position: center center;
   position:relative;
 }
 
@@ -194,7 +195,7 @@ select {
   margin:0 auto;
   padding:0 30px;
   display: flex;
-  gap:90px;
+  gap:92px;
 }
 
 .news-list__item{
@@ -232,8 +233,8 @@ line-height: 1.8;
 .back-string{
   position:absolute;
   right:10px;
-  top:-80px;
-  font-size:165px;
+  top:-83px;
+  font-size:168px;
   font-weight: bold;
   color:#eeeeee;
   z-index: -1;
@@ -247,17 +248,20 @@ line-height: 1.8;
 
 .service-list__item{
   width:calc((100% - 60px) / 3);
-  box-shadow: 0 0 2px 2px #eeeeee;
+  box-shadow: 0 0 16px 6px #eeeeee;
   border-radius: 4px;
   text-align: center;
   background-color: #ffffff;
 }
 
-.material-symbols-outlined{
-  font-size: 48px;
+.service__icon{
+  font-size: 48px!important;
   color:#dd1b57;
+  vertical-align: bottom;
   margin-top: 50px;
+  font-variation-settings: 'wght' 500,'opsz' 20;
 }
+
 
 .work{
   font-variation-settings: 'FILL' 1;
@@ -278,6 +282,10 @@ line-height: 1.8;
   margin-top: 15px;
 }
 
+@media(max-width:767px){
+
+
+}
 
 
 

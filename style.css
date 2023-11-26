@@ -157,6 +157,7 @@ a{
   cursor:pointer;
 }
 
+/* header */
 .header{
   height: 90px;
   display: flex;
@@ -179,11 +180,16 @@ a{
   letter-spacing: 0.8px;
 }
 
+.gnav__link:hover{
+  color:#dd1b57;
+}
+
 .gnav__link--active{
   color:#dd1b57;
 }
 
-.hum{
+.sp-nav__open,
+.sp-nav__close{
   display: none;
 }
 
@@ -214,4 +220,36 @@ a{
   font-size: 12px;
   line-height: 1.15;
   letter-spacing: 0.36px;
+}
+
+@media(max-width:767px){
+  /* header */
+  .header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:20px;
+  }
+  
+  .logo{
+    width:100px;
+  }
+  
+  .gnav__list{
+    display:none;
+  }
+
+  .sp-nav__open{
+    display: block;
+    width:60px;
+    height:60px;
+    background-color: #dd1b57;
+    text-align: center;
+    color:#ffffff;
+
+  }
+
+
+
 }
