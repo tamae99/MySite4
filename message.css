@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+ruby,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/*end reset css*/
+/* mainvisual */
+
+.page-header{
+  height:190px;
+  background-image: url("pc_header.webp");
+  background-size: cover;
+  background-position: center center;
+  position:relative;
+}
+
+.page-header__title{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 4px;
+  color:#ffffff;
+}
+
+/* message */
+.message__container{
+  max-width: 850px;
+  margin:0 auto;
+  padding:0 30px;
+}
+.message__title{
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color:#dd1b57;
+  text-align: center;
+  margin:60px 0 20px;
+}
+
+.message__subtitle{
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.9px;
+  text-align: center;
+  margin:20px 0 40px;
+}
+.message{
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  float:left;
+  margin-bottom: 80px;
+}
+
+.ceo{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  float:left;
+  margin:0 20px 20px 0;
+}
+
+
+.message-link{
+  color:#349bf4;
+  border-bottom:1px solid  #349bf4;
+  cursor: pointer;
+}
+
+.office{
+  max-width: 1160px;
+  padding:0 30px 0;
+  margin: 0 auto 94px;
+}
+
+@media(max-width:767px){
+/* mainvisual */
+.page-header{
+  height:160px;
+  background-image: url("sp_header.webp");
+}
+
+.page-header__title{
+  font-size: 28px;
+  letter-spacing: 2.8px;
+}
+
+/* message */
+.message__container{
+  padding:0 20px;
+}
+.message__title{
+  font-size: 24px;
+  letter-spacing: 1.2px;
+   margin:40px 0 15px;
+}
+
+.message__subtitle{
+  font-size: 15px;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin:0 0 30px;
+}
+.message{
+  font-size: 15px;
+  letter-spacing: 0.75px;
+  margin-bottom: 50px;
+}
+
+.ceo{
+  margin:0 15px 20px 0;
+}
+
+.office{
+  max-width: 1170px;
+  padding:0 20px;
+  margin: 0 auto 60px;
+}
+}
